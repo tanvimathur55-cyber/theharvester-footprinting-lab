@@ -1,14 +1,21 @@
 # Footprinting & Reconnaissance with theHarvester
 
+NetworkWalks Cybersecurity Internship – Week 2
+
+Intern: Tanvi Mathur
+
+Batch: B084J
+
+Date: 14 November 2026
+
 Week 2 | Project Module 4: Cybersecurity & Ethical Hacking
 
 > **For educational purposes only.** This lab used passive reconnaissance against a public domain (`microsoft.com`), in a lab environment, using publicly available sources only. No systems were accessed or attacked.
 
 ## Overview
 
-theHarvester is an open source intelligence (OSINT) tool that collects emails, sub-domains, hosts, IP addresses and employee names from public sources such as search engines and certificate databases. Because it only reads public data, it never touches the target directly, which makes this kind of passive recon hard to detect.
-
-In this lab I used theHarvester to gather email IDs and sub-domains for `microsoft.com` with two different source settings.
+The Harvester is an open source intelligence tool used to gather email addresses, sub-domains, hosts, IP Addresses and employee names from publicly available sources like search engines and certificate databases. It can never actively interact with its target as it only uses information from public sources making it very difficult to identify passive reconnaissance.
+In this lab we have used theHarvester to gather email IDs and sub-domains from microsoft.com in two different source configurations.
 
 ## Environment
 
@@ -41,6 +48,16 @@ Emails found:
 
 ![Task 1 run](task1_baidu_run.png)
 
+<img width="476" height="660" alt="image" src="https://github.com/user-attachments/assets/5ba8cfca-4c33-49db-8607-d95d81191ff5" />
+
+<img width="624" height="664" alt="image" src="https://github.com/user-attachments/assets/43611b26-f564-41e1-916f-dad8a5d2fc4c" />
+
+<img width="624" height="613" alt="image" src="https://github.com/user-attachments/assets/8f3d791e-f88b-40e1-8fe9-11e14674884f" />
+
+
+
+
+
 ### Task 2: All sources, limit 50
 
 ```bash
@@ -55,6 +72,12 @@ Emails found:
 - secure@microsoft.com
 
 ![Task 2 summary](task2_summary.png)
+<img width="390" height="280" alt="image" src="https://github.com/user-attachments/assets/fdade598-9589-4a62-95c6-3f7d2c656324" />
+
+<img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/9e453f1b-ed25-4aa3-a0dc-5716d0d58e7d" />
+
+
+
 
 ## Repository contents
 
@@ -69,22 +92,20 @@ Emails found:
 
 ## Observations
 
-- Different sources return very different results. Baidu returned only a few hosts, while the all-sources run returned thousands of sub-domains.
-- Some sources showed `Missing API key` messages. These sources need paid or registered API keys, so theHarvester skipped them. Adding keys would likely return even more data.
-- Results can change between runs because the public sources keep changing their data and algorithms.
+The results vary depending on the source. Baidu provided a couple of hosts but the overall result gave thousands of sub-domains.
+Some sources provided an error message saying "Missing API key". The sources require you to have a paid or registered API key which is why they were skipped. However, adding a key would likely provide more information.
+
+Due to public sources constantly updating there data and algorithms results may vary.
 
 ## Why this matters
 
-- Harvested emails can be used for phishing and password attacks.
-- Sub-domains widen the attack surface and can include forgotten or test systems.
-- Defenders run the same tool on their own organization to see what an attacker would see, then reduce what they expose publicly.
+-Harvested email addresses can be used for phishing and password attacks.
+
+-Sub-domains increase the attack surface. These could contain systems that were forgotten about and testing systems.
+
+-Defenders will run the tool inside their organisation so that they know what an attacker would see. They will then reduce what information is published.
 
 ## Key takeaways
+-Passive reconnaissance collects a large amount of information, without any contact with the target.
+-The less that is known about an organisation publically, the harder it will be to carry out all aspects of the attack.
 
-- Passive reconnaissance gathers a lot of information without ever contacting the target.
-- Trying more than one data source gives a fuller picture.
-- The less an organization exposes publicly, the harder every later stage of an attack becomes.
-
-## Disclaimer
-
-This material is for education and research only. Only test systems you own, have written permission to test, or that are part of a lab environment. Unauthorised access is illegal in most countries.
