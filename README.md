@@ -52,10 +52,6 @@ Emails found:
 
 <img width="624" height="664" alt="image" src="https://github.com/user-attachments/assets/43611b26-f564-41e1-916f-dad8a5d2fc4c" />
 
-<img width="624" height="613" alt="image" src="https://github.com/user-attachments/assets/8f3d791e-f88b-40e1-8fe9-11e14674884f" />
-
-
-
 
 
 ### Task 2: All sources, limit 50
