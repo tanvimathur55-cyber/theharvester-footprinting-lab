@@ -1,0 +1,43 @@
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com 
+
+[*] Searching Baidu. 
+
+[*] No IPs found.
+
+[*] Emails found: 3
+----------------------
+mscomblg@microsoft.com
+projectrometeam@microsoft.com
+vs-irl@microsoft.com
+
+[*] No people found.
+
+[*] Hosts found: 12
+---------------------
+account.microsoft.com
+c.urs.microsoft.com
+clarity.microsoft.com
+developer.microsoft.com
+go.microsoft.com
+graph.microsoft.com
+learn.microsoft.com
+msrc-blog.microsoft.com
+prod.support.services.microsoft.com
+schemas.microsoft.com
+support.microsoft.com
+technet.microsoft.com
