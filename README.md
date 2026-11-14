@@ -67,7 +67,7 @@ Emails found:
 - opencode@microsoft.com
 - secure@microsoft.com
 
-![Task 2 summary](task2_summary.png)
+![Task 2 summary]
 <img width="390" height="280" alt="image" src="https://github.com/user-attachments/assets/fdade598-9589-4a62-95c6-3f7d2c656324" />
 
 <img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/9e453f1b-ed25-4aa3-a0dc-5716d0d58e7d" />
