@@ -100,5 +100,6 @@ Due to public sources constantly updating there data and algorithms results may 
 
 ## Key takeaways
 -Passive reconnaissance collects a large amount of information, without any contact with the target.
+
 -The less that is known about an organisation publically, the harder it will be to carry out all aspects of the attack.
 
